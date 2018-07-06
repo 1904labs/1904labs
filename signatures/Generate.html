@@ -12,16 +12,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.js"></script>
 </head>
 
-<body>
+<body margin-left="20px">
     <h1>1904 Signature Generator</h1>
     <p>Enter your name, title, team name and phone numbers and click generate</p>
     <form id="card">
         <label for="name">Name: <input id="name" required placeholder="Herman Munster" /></label><br>
         <label for="title">Title: <input id="title" required placeholder="Box Boy" /></label><br>
-        <label for="teams">Teams: <input id="teams" required placeholder="Skinny Puppy Team" /></label><br>
-        <label for="contact1">Contact 1: <input id="contact1" placeholder="314.555.1212 mobile"/></label><br>
-        <label for="contact2">Contact 2: <input id="contact2" placeholder="314.555.1212 office"/></label><br>
+        <label for="teams">Teams: <input id="teams" required placeholder="Morgue Team" /></label><br>
+        <label for="contact1">Contact 1: <input id="contact1" placeholder="mobile 314.555.1212"/></label><br>
+        <label for="contact2">Contact 2: <input id="contact2" placeholder="office 314.555.1212"/></label><br>
         <label for="social">Include socia-media links: <input id="social" type="checkbox" checked/></label><br>
+        <label for="social">Include Top Workplace link: <input id="award" type="checkbox" checked/></label><br>
     </form>
     <br>
     <h4>Highlight this and copy/paste:</h4>
@@ -35,20 +36,20 @@
                     <b>{{name}}</b><br>
                 {{/if}}
                 {{#if title.length}}
-                    <b><em>{{title}}</em></b><br>
+                    <em>{{title}}</em><br>
                 {{/if}}
                 {{#if teams.length}}
                     <em style="color:#7f7f7f;">{{teams}}</em><br>
                 {{/if}}
             </span>
-            <a href="https://1904labs.com/"><img border=0 width="77" height="36" src="https://1904labs.com/esig/logo" /></a><br> {{#if contact1.length}}
-            <span style="color:#7f7f7f;">{{contact1}}</span><br> {{/if}} {{#if contact2.length}}
-            <span style="color:#7f7f7f;">{{contact2}}</span><br> {{/if}} {{#if social}}
+            <a href="https://1904labs.com/"><img border=0 width="77" height="36" src="https://1904labs.com/esig/logo" /></a><br>{{#if contact1.length}}
+            <span style="color:#7f7f7f;">{{contact1}}</span><br>{{/if}}{{#if contact2.length}}
+            <span style="color:#7f7f7f;">{{contact2}}</span><br>{{/if}}{{#if social}}
             <a href="https://1904labs.com/"><img border=0 width="22" height="40" src="https://1904labs.com/esig/home-green" /></a>
             <a href="https://www.linkedin.com/company/1904labs/"><img border=0 width="22" height="40" src="https://1904labs.com/esig/li-gray" /></a>
             <a href="http://twitter.com/1904labs"><img border=0 width="22" height="40" src="https://1904labs.com/esig/tw-green" /></a>
-            <a href="http://www.facebook.com/1904Labs/"><img border=0 width="22" height="40" src="https://1904labs.com/esig/fb-gray" /></a><br> {{/if}}
-            <a href="https://1904labs.com/o/TopWorkplace2018" style="text-decoration:none;"><span style="color:#222222;">1904labs is proud to be a Top Workplace 2018</span></a>
+            <a href="http://www.facebook.com/1904Labs/"><img border=0 width="22" height="40" src="https://1904labs.com/esig/fb-gray" /></a><br>{{/if}}{{#if award}}
+            <a href="https://1904labs.com/o/TopWorkplace2018" style="text-decoration:none;"><span style="color:#0000FF;">1904labs is proud to be a Top Workplace 2018</span></a>{{/if}}
         </p>
     </script>
     <script>
@@ -77,6 +78,7 @@
         var $contact1 = $('#contact1');
         var $contact2 = $('#contact2');
         var $social = $('#social');
+        var $award = $('#award');
 
         function regen() {
             var state = {};
@@ -86,11 +88,13 @@
             state.contact1 = $contact1.val();
             state.contact2 = $contact2.val();
             state.social = $social.prop("checked") ? true : null;
+            state.award = $award.prop("checked") ? true : null;
             $('#content').handlebars($('#template'), state);
         }
 
         $form.keyup(regen);
         $social.change(regen);
+        $award.change(regen);
         regen();
     </script>
 </body>
