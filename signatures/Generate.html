@@ -21,8 +21,13 @@
         <label for="teams">Teams: <input id="teams" required placeholder="Morgue Team" /></label><br>
         <label for="contact1">Contact 1: <input id="contact1" placeholder="mobile 314.555.1212"/></label><br>
         <label for="contact2">Contact 2: <input id="contact2" placeholder="office 314.555.1212"/></label><br>
-        <label for="social">Include socia-media links: <input id="social" type="checkbox" checked/></label><br>
         <label for="social">Include Top Workplace link: <input id="award" type="checkbox" checked/></label><br>
+        <label for="social">Include socia-media links: <input id="social" type="checkbox" checked/></label><br>
+        <div style="margin-left:30px;">
+            <label for="social">Override LinkedIn user link: <input id="linkedInUser" type="text" value="company/1904labs"/></label><br>
+            <label for="social">Override Twitter user link: <input id="twitterUser" type="text" value="1904labs"/></label><br>
+            <label for="social">Override Facebook user link: <input id="facebookUser" type="text" value="1904labs"/></label><br>
+        </div>
     </form>
     <br>
     <h4>Highlight the block below and copy/paste</h4>
@@ -58,9 +63,9 @@
             <span style="color:#7f7f7f;">{{contact1}}</span><br>{{/if}}{{#if contact2.length}}
             <span style="color:#7f7f7f;">{{contact2}}</span><br>{{/if}}{{#if social}}
             <a href="https://1904labs.com/"><img border=0 width="22" height="40" src="https://1904labs.com/esig/home-green" /></a>
-            <a href="https://www.linkedin.com/company/1904labs/"><img border=0 width="22" height="40" src="https://1904labs.com/esig/li-gray" /></a>
-            <a href="http://twitter.com/1904labs"><img border=0 width="22" height="40" src="https://1904labs.com/esig/tw-green" /></a>
-            <a href="http://www.facebook.com/1904Labs/"><img border=0 width="22" height="40" src="https://1904labs.com/esig/fb-gray" /></a><br>{{/if}}{{#if award}}
+            <a href="https://www.linkedin.com/{{linkedInUser}}/"><img border=0 width="22" height="40" src="https://1904labs.com/esig/li-gray" /></a>
+            <a href="https://twitter.com/{{twitterUser}}"><img border=0 width="22" height="40" src="https://1904labs.com/esig/tw-green" /></a>
+            <a href="https://www.facebook.com/{{facebookUser}}/"><img border=0 width="22" height="40" src="https://1904labs.com/esig/fb-gray" /></a><br>{{/if}}{{#if award}}
             <a href="https://1904labs.com/o/TopWorkplace2018" style="text-decoration:none;"><span style="color:#0000FF;">1904labs is proud to be a Top Workplace 2018</span></a>{{/if}}
         </p>
     </script>
@@ -90,6 +95,9 @@
         var $contact1 = $('#contact1');
         var $contact2 = $('#contact2');
         var $social = $('#social');
+        var $linkedInUser = $('#linkedInUser');
+        var $twitterUser = $('#twitterUser');
+        var $facebookUser = $('#facebookUser');
         var $award = $('#award');
 
         function regen() {
@@ -100,6 +108,9 @@
             state.contact1 = $contact1.val();
             state.contact2 = $contact2.val();
             state.social = $social.prop("checked") ? true : null;
+            state.linkedInUser = $linkedInUser.val();
+            state.twitterUser = $twitterUser.val();
+            state.facebookUser = $facebookUser.val();
             state.award = $award.prop("checked") ? true : null;
             $('#content').handlebars($('#template'), state);
         }
