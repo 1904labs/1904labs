@@ -49,10 +49,10 @@
         </ul>
     </p>
     <script id="template" type="text/handlebars">
-        <p style="line-height:1em;font-family:sans-serif;font-size:11pt;font-weight:500;color:#565a5d;background:#ffffff;">
-            <span style="line-height:1.2em;margin-bottom:2em;">
+        <p style="line-height:1em;font-family:sans-serif;font-size:10pt;font-weight:500;color:#565a5d;background:#ffffff;">
+            <span style="line-height:1.2em;">
                 {{#if name.length}}
-                    <strong style="font-weight:700;font-size:13pt;">{{name}}</strong><br>
+                    <strong style="font-weight:700;font-size:11pt;">{{name}}</strong><br>
                 {{/if}}
                 {{#if title.length}}
                     <em>{{title}}</em><br>
@@ -61,18 +61,18 @@
                     <em>{{teams}}</em><br>
                 {{/if}}
                 {{#if contact1.length}}
-                    <span style="padding-top:1.2em;">{{contact1}}</span><br>
+                    <span style="padding-top:1.2em;font-size:9pt;">{{contact1}}</span><br>
                 {{/if}}
                 {{#if contact2.length}}
-                    {{contact2}}<br>
+                    <span style="font-size:9pt;">{{contact2}}</span><br>
                 {{/if}}
             </span>
-            <a href="https://1904labs.com/" title="1904labs Homepage">{{#if labslogo}}<img border=0 width="105" height="33" src="https://1904labs.com/esig/logo-2019" title="1904labs logo"/>{{/if}}{{#if labstext}}1904labs{{/if}}</a><br>{{#if social}}
-            <a href="https://www.linkedin.com/{{linkedInUser}}/" title="1904labs on LinkedIn"><img border=0 width="28" height="39" src="https://1904labs.com/esig/li-blue" /></a>
-            <a href="https://twitter.com/{{twitterUser}}" title="1904labs on Twitter"><img border=0 width="28" height="39" src="https://1904labs.com/esig/tw-gray" /></a>
-            <a href="https://www.facebook.com/{{facebookUser}}/" title="1904labs on Facebook"><img border=0 width="28" height="39" src="https://1904labs.com/esig/fb-blue" /></a>
-            <a href="https://www.instagram.com/{{instagramUser}}/" title="1904labs on Instagram"><img border=0 width="28" height="39" src="https://1904labs.com/esig/in-gray" /></a><br>{{/if}}{{#if award}}
-            <a href="https://1904labs.com/o/TopWorkplace2018" style="text-decoration:none;" title="1904labs is Top Workplace"><span style="color:#57595C;font-weight:400;">1904labs is proud to be a Top Workplace 2018</span></a>{{/if}}
+            <a href="https://1904labs.com/" title="1904labs Homepage">{{#if labslogo}}<img border=0 width="100" height="31" src="https://1904labs.com/esig/logo-2019" title="1904labs logo"/>{{/if}}{{#if labstext}}1904labs{{/if}}</a><br>{{#if social}}
+            <a href="https://www.linkedin.com/{{linkedInUser}}/" title="1904labs on LinkedIn"><img border=0 width="25" height="34" src="https://1904labs.com/esig/li-blue" /></a>
+            <a href="https://twitter.com/{{twitterUser}}" title="1904labs on Twitter"><img border=0 width="25" height="34" src="https://1904labs.com/esig/tw-gray" /></a>
+            <a href="https://www.facebook.com/{{facebookUser}}/" title="1904labs on Facebook"><img border=0 width="25" height="34" src="https://1904labs.com/esig/fb-blue" /></a>
+            <a href="https://www.instagram.com/{{instagramUser}}/" title="1904labs on Instagram"><img border=0 width="25" height="34" src="https://1904labs.com/esig/in-gray" /></a><br>{{/if}}{{#if award}}
+            <a href="https://1904labs.com/o/TopWorkplace2018" style="text-decoration:none;font-size:9pt;" title="1904labs is Top Workplace"><span style="color:#57595C;font-weight:400;">1904labs is proud to be a Top Workplace 2018</span></a>{{/if}}
         </p>
     </script>
     <script>
