@@ -17,6 +17,7 @@
     <p>Enter your name, title, team name and phone numbers.</p>
     <form id="card">
         <label for="name">Name: <input id="name" required placeholder="Herman Munster" /></label><br>
+        <label for="pronouns">Preferred Pronouns: <input id="pronouns" placeholder="they/them/theirs" /></label><br>
         <label for="title">Title: <input id="title" required placeholder="Box Boy" /></label><br>
         <label for="teams">Teams: <input id="teams" required placeholder="Morgue Team" /></label><br>
         <label for="contact1">Contact 1: <input id="contact1" placeholder="mobile 314.555.1212"/></label> (like <em>mobile 314.555.1212</em>)<br>
@@ -53,6 +54,9 @@
             <span style="line-height:1.2em;">
                 {{#if name.length}}
                     <strong style="font-weight:700;font-size:11pt;">{{name}}</strong><br>
+                {{/if}}
+                {{#if pronouns.length}}
+                    <em>{{pronouns}}</em><br>
                 {{/if}}
                 {{#if title.length}}
                     <em>{{title}}</em><br>
@@ -96,6 +100,7 @@
 
         var $form = $('#card');
         var $name = $('#name');
+        var $pronouns = $('#pronouns');
         var $title = $('#title');
         var $teams = $('#teams');
         var $contact1 = $('#contact1');
@@ -111,6 +116,7 @@
         function regen() {
             var state = {};
             state.name = $name.val();
+            state.pronouns = $pronouns.val();
             state.title = $title.val();
             state.teams = $teams.val();
             state.contact1 = $contact1.val();
