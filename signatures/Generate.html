@@ -24,6 +24,7 @@
         <label for="contact2">Contact 2: <input id="contact2" placeholder="office 314.451.1818"/></label> (like <em>office 314.451.1818</em>)<br>
         <label for="address">Include office address: <input id="address" type="checkbox" /></label><br>
         <label for="award">Include Top Workplace link: <input id="award" type="checkbox" checked/></label><br>
+        <label for="awardbanner">Include Top Workplace Banner: <input id="awardbanner" type="checkbox" checked/></label><br>
         <label for="social">Include social-media links: <input id="social" type="checkbox" checked/></label><br>
         <label for="labslogo">Use image for 1904labs link: <input id="labslogo" type="checkbox" checked/></label><br>
         <div style="margin-left:30px;">
@@ -51,37 +52,50 @@
         </ul>
     </p>
     <script id="template" type="text/handlebars">
-        <p style="line-height:1em;font-family:sans-serif;font-size:10pt;font-weight:500;color:#565a5d;background:#ffffff;">
-            <span style="line-height:1.2em;">
-                {{#if name.length}}
-                    <strong style="font-weight:700;font-size:11pt;">{{name}}</strong><br>
-                {{/if}}
-                {{#if pronouns.length}}
-                    <em>{{pronouns}}</em><br>
-                {{/if}}
-                {{#if title.length}}
-                    <em>{{title}}</em><br>
-                {{/if}}
-                {{#if teams.length}}
-                    <em>{{teams}}</em><br>
-                {{/if}}
-                {{#if contact1.length}}
-                    <span style="padding-top:1.2em;font-size:9pt;">{{contact1}}</span><br>
-                {{/if}}
-                {{#if contact2.length}}
-                    <span style="font-size:9pt;">{{contact2}}</span><br>
-                {{/if}}
-                {{#if address}}
-                    <span style="font-size:9pt;">20 S. Sarah Street, Saint Louis, MO 63108</span><br>
-                {{/if}}
-            </span>
-            <a href="https://1904labs.com/" title="1904labs Homepage">{{#if labslogo}}<img border=0 width="100" height="31" src="https://1904labs.com/esig/logo-2019" title="1904labs logo"/>{{/if}}{{#if labstext}}1904labs{{/if}}</a><br>{{#if social}}
-            <a href="https://www.linkedin.com/{{linkedInUser}}/" title="1904labs on LinkedIn"><img border=0 width="25" height="34" src="https://1904labs.com/esig/li-blue" /></a>
-            <a href="https://twitter.com/{{twitterUser}}" title="1904labs on Twitter"><img border=0 width="25" height="34" src="https://1904labs.com/esig/tw-gray" /></a>
-            <a href="https://www.facebook.com/{{facebookUser}}/" title="1904labs on Facebook"><img border=0 width="25" height="34" src="https://1904labs.com/esig/fb-blue" /></a>
-            <a href="https://www.instagram.com/{{instagramUser}}/" title="1904labs on Instagram"><img border=0 width="25" height="34" src="https://1904labs.com/esig/in-gray" /></a><br>{{/if}}{{#if award}}
-            <a href="https://1904labs.com/o/2020TopWorkplace" style="text-decoration:none;font-size:9pt;" title="1904labs is Top Workplace"><span style="color:#57595C;font-weight:400;">1904labs is proud to be a Top Workplace 2020</span></a>{{/if}}
-        </p>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <p style="line-height:1em;font-family:sans-serif;font-size:10pt;font-weight:500;color:#565a5d;background:#ffffff;">
+                            <span style="line-height:1.2em;">
+                                {{#if name.length}}
+                                    <strong style="font-weight:700;font-size:11pt;">{{name}}</strong><br>
+                                {{/if}}
+                                {{#if pronouns.length}}
+                                    <em>{{pronouns}}</em><br>
+                                {{/if}}
+                                {{#if title.length}}
+                                    <em>{{title}}</em><br>
+                                {{/if}}
+                                {{#if teams.length}}
+                                    <em>{{teams}}</em><br>
+                                {{/if}}
+                                {{#if contact1.length}}
+                                    <span style="padding-top:1.2em;font-size:9pt;">{{contact1}}</span><br>
+                                {{/if}}
+                                {{#if contact2.length}}
+                                    <span style="font-size:9pt;">{{contact2}}</span><br>
+                                {{/if}}
+                                {{#if address}}
+                                    <span style="font-size:9pt;">20 S. Sarah Street, Saint Louis, MO 63108</span><br>
+                                {{/if}}
+                            </span>
+
+                            <a href="https://1904labs.com/" title="1904labs Homepage">{{#if labslogo}}<img border=0 width="100" height="31" src="https://1904labs.com/esig/logo-2019" title="1904labs logo"/>{{/if}}{{#if labstext}}1904labs{{/if}}</a><br>{{#if social}}
+                            <a href="https://www.linkedin.com/{{linkedInUser}}/" title="1904labs on LinkedIn"><img border=0 width="25" height="34" src="https://1904labs.com/esig/li-blue" /></a>
+                            <a href="https://twitter.com/{{twitterUser}}" title="1904labs on Twitter"><img border=0 width="25" height="34" src="https://1904labs.com/esig/tw-gray" /></a>
+                            <a href="https://www.facebook.com/{{facebookUser}}/" title="1904labs on Facebook"><img border=0 width="25" height="34" src="https://1904labs.com/esig/fb-blue" /></a>
+                            <a href="https://www.instagram.com/{{instagramUser}}/" title="1904labs on Instagram"><img border=0 width="25" height="34" src="https://1904labs.com/esig/in-gray" /></a><br>{{/if}}{{#if award}}
+                            <a href="https://1904labs.com/o/2020TopWorkplace" style="text-decoration:none;font-size:9pt;" title="1904labs is Top Workplace"><span style="color:#57595C;font-weight:400;">1904labs is proud to be a Top Workplace 2020</span></a>{{/if}}
+                        </p>                            
+                    </td>
+                    {{#if awardbanner}}
+                    <td>
+                        <a href="https://1904labs.com/o/2020TopWorkplace" title="1904labs is Top Workplace 3 years running"><img border=0 src="https://1904labs.com/esig/aw-2018-2020-banner" /></a>
+                    </td>{{/if}}
+                </tr>
+            </tbody>
+        </table>
     </script>
     <script>
         Handlebars.registerHelper('if', function(conditional, options) {
@@ -113,6 +127,7 @@
         var $social = $('#social');
         var $labslogo = $('#labslogo');
         var $award = $('#award');
+        var $awardbanner = $('#awardbanner');
         var $linkedInUser = $('#linkedInUser');
         var $twitterUser = $('#twitterUser');
         var $facebookUser = $('#facebookUser');
@@ -131,6 +146,7 @@
             state.labslogo = $labslogo.prop("checked") ? true : null;
             state.labstext = $labslogo.prop("checked") ? false : true;
             state.award = $award.prop("checked") ? true : null;
+            state.awardbanner = $awardbanner.prop("checked") ? true : null;
             state.linkedInUser = $linkedInUser.val();
             state.twitterUser = $twitterUser.val();
             state.facebookUser = $facebookUser.val();
@@ -142,6 +158,7 @@
         $address.change(regen);
         $social.change(regen);
         $award.change(regen);
+        $awardbanner.change(regen);
         $labslogo.change(regen);
         regen();
     </script>
