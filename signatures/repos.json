@@ -1,0 +1,889 @@
+{
+  "data": {
+    "organization": {
+      "repositories": {
+        "pageInfo": {
+          "endCursor": "Y3Vyc29yOnYyOpK5MjAxOS0wMy0yOFQxMjo0NzoxMS0wNTowMM4JquvN"
+        },
+        "nodes": [
+          {
+            "name": "code-challenges-env-check",
+            "isPrivate": false,
+            "updatedAt": "2021-01-22T19:29:58Z",
+            "url": "https://github.com/1904labs/code-challenges-env-check"
+          },
+          {
+            "name": "charter-cpcs",
+            "isPrivate": true,
+            "updatedAt": "2021-01-22T14:59:22Z",
+            "url": "https://github.com/1904labs/charter-cpcs"
+          },
+          {
+            "name": "1904labs",
+            "isPrivate": false,
+            "updatedAt": "2021-01-21T20:32:20Z",
+            "url": "https://github.com/1904labs/1904labs"
+          },
+          {
+            "name": "AWS-ElasticSearch-Spring-Boot-Starter-Project",
+            "isPrivate": false,
+            "updatedAt": "2021-01-21T07:32:32Z",
+            "url": "https://github.com/1904labs/AWS-ElasticSearch-Spring-Boot-Starter-Project"
+          },
+          {
+            "name": "infrastructure-quickstarts",
+            "isPrivate": true,
+            "updatedAt": "2021-01-20T18:38:33Z",
+            "url": "https://github.com/1904labs/infrastructure-quickstarts"
+          },
+          {
+            "name": "aws_exam_prep",
+            "isPrivate": true,
+            "updatedAt": "2021-01-19T20:55:26Z",
+            "url": "https://github.com/1904labs/aws_exam_prep"
+          },
+          {
+            "name": "code-challenges",
+            "isPrivate": true,
+            "updatedAt": "2021-01-19T17:45:37Z",
+            "url": "https://github.com/1904labs/code-challenges"
+          },
+          {
+            "name": "PonyX",
+            "isPrivate": true,
+            "updatedAt": "2021-01-15T20:01:47Z",
+            "url": "https://github.com/1904labs/PonyX"
+          },
+          {
+            "name": "team-planning",
+            "isPrivate": true,
+            "updatedAt": "2021-01-13T19:19:21Z",
+            "url": "https://github.com/1904labs/team-planning"
+          },
+          {
+            "name": "rpc-demo",
+            "isPrivate": true,
+            "updatedAt": "2021-01-13T18:43:33Z",
+            "url": "https://github.com/1904labs/rpc-demo"
+          },
+          {
+            "name": "charter-event-governance",
+            "isPrivate": true,
+            "updatedAt": "2021-01-12T18:18:24Z",
+            "url": "https://github.com/1904labs/charter-event-governance"
+          },
+          {
+            "name": "charter-ccpa",
+            "isPrivate": true,
+            "updatedAt": "2021-01-07T22:11:32Z",
+            "url": "https://github.com/1904labs/charter-ccpa"
+          },
+          {
+            "name": "maturity-model-survey",
+            "isPrivate": true,
+            "updatedAt": "2021-01-07T22:10:20Z",
+            "url": "https://github.com/1904labs/maturity-model-survey"
+          },
+          {
+            "name": "ng-1904",
+            "isPrivate": true,
+            "updatedAt": "2021-01-01T05:07:17Z",
+            "url": "https://github.com/1904labs/ng-1904"
+          },
+          {
+            "name": "slack-anniversary-bot",
+            "isPrivate": true,
+            "updatedAt": "2021-01-01T05:06:54Z",
+            "url": "https://github.com/1904labs/slack-anniversary-bot"
+          },
+          {
+            "name": "taocp",
+            "isPrivate": false,
+            "updatedAt": "2020-12-30T00:12:00Z",
+            "url": "https://github.com/1904labs/taocp"
+          },
+          {
+            "name": "feather-processor",
+            "isPrivate": true,
+            "updatedAt": "2020-12-18T21:08:27Z",
+            "url": "https://github.com/1904labs/feather-processor"
+          },
+          {
+            "name": "random-feather-picker",
+            "isPrivate": true,
+            "updatedAt": "2020-12-17T22:47:21Z",
+            "url": "https://github.com/1904labs/random-feather-picker"
+          },
+          {
+            "name": "rga-emerging-tech",
+            "isPrivate": true,
+            "updatedAt": "2020-12-11T23:11:15Z",
+            "url": "https://github.com/1904labs/rga-emerging-tech"
+          },
+          {
+            "name": "pega_automation",
+            "isPrivate": true,
+            "updatedAt": "2020-12-10T17:13:04Z",
+            "url": "https://github.com/1904labs/pega_automation"
+          },
+          {
+            "name": "GatherTown",
+            "isPrivate": true,
+            "updatedAt": "2020-12-09T18:41:44Z",
+            "url": "https://github.com/1904labs/GatherTown"
+          },
+          {
+            "name": "emerson-api",
+            "isPrivate": true,
+            "updatedAt": "2020-12-02T18:48:31Z",
+            "url": "https://github.com/1904labs/emerson-api"
+          },
+          {
+            "name": "aws-connect-resources",
+            "isPrivate": true,
+            "updatedAt": "2020-11-25T17:38:17Z",
+            "url": "https://github.com/1904labs/aws-connect-resources"
+          },
+          {
+            "name": "github-email-finder",
+            "isPrivate": true,
+            "updatedAt": "2020-11-13T22:50:15Z",
+            "url": "https://github.com/1904labs/github-email-finder"
+          },
+          {
+            "name": "nifi-flux",
+            "isPrivate": true,
+            "updatedAt": "2020-11-13T22:47:37Z",
+            "url": "https://github.com/1904labs/nifi-flux"
+          },
+          {
+            "name": "ptr-calc",
+            "isPrivate": true,
+            "updatedAt": "2020-11-13T22:47:14Z",
+            "url": "https://github.com/1904labs/ptr-calc"
+          },
+          {
+            "name": "professional-personal-development-program-api",
+            "isPrivate": true,
+            "updatedAt": "2020-11-13T22:43:25Z",
+            "url": "https://github.com/1904labs/professional-personal-development-program-api"
+          },
+          {
+            "name": "k8-study-group",
+            "isPrivate": true,
+            "updatedAt": "2020-11-13T22:38:57Z",
+            "url": "https://github.com/1904labs/k8-study-group"
+          },
+          {
+            "name": "adaloDxDataGathering",
+            "isPrivate": true,
+            "updatedAt": "2020-11-06T22:11:25Z",
+            "url": "https://github.com/1904labs/adaloDxDataGathering"
+          },
+          {
+            "name": "professional-personal-development-program-ui",
+            "isPrivate": true,
+            "updatedAt": "2020-11-03T15:29:14Z",
+            "url": "https://github.com/1904labs/professional-personal-development-program-ui"
+          },
+          {
+            "name": "liftingthelou",
+            "isPrivate": false,
+            "updatedAt": "2020-10-28T22:05:12Z",
+            "url": "https://github.com/1904labs/liftingthelou"
+          },
+          {
+            "name": "self",
+            "isPrivate": true,
+            "updatedAt": "2020-10-26T18:30:43Z",
+            "url": "https://github.com/1904labs/self"
+          },
+          {
+            "name": "tenetitans-nlp-frontend",
+            "isPrivate": true,
+            "updatedAt": "2020-10-15T17:09:57Z",
+            "url": "https://github.com/1904labs/tenetitans-nlp-frontend"
+          },
+          {
+            "name": "tenetitans-stack-templates",
+            "isPrivate": true,
+            "updatedAt": "2020-10-14T18:04:06Z",
+            "url": "https://github.com/1904labs/tenetitans-stack-templates"
+          },
+          {
+            "name": "geotweet",
+            "isPrivate": false,
+            "updatedAt": "2020-10-14T17:57:31Z",
+            "url": "https://github.com/1904labs/geotweet"
+          },
+          {
+            "name": "jobswatcher",
+            "isPrivate": false,
+            "updatedAt": "2020-10-14T17:55:57Z",
+            "url": "https://github.com/1904labs/jobswatcher"
+          },
+          {
+            "name": "de-hours-with-experts",
+            "isPrivate": false,
+            "updatedAt": "2020-10-14T17:55:42Z",
+            "url": "https://github.com/1904labs/de-hours-with-experts"
+          },
+          {
+            "name": "nifi-standardize-date-bundle",
+            "isPrivate": false,
+            "updatedAt": "2020-10-13T23:57:17Z",
+            "url": "https://github.com/1904labs/nifi-standardize-date-bundle"
+          },
+          {
+            "name": "nifi-encrypt-value-bundle",
+            "isPrivate": false,
+            "updatedAt": "2020-10-13T23:56:56Z",
+            "url": "https://github.com/1904labs/nifi-encrypt-value-bundle"
+          },
+          {
+            "name": "geospatial-frontend-comparison",
+            "isPrivate": true,
+            "updatedAt": "2020-10-13T21:25:59Z",
+            "url": "https://github.com/1904labs/geospatial-frontend-comparison"
+          },
+          {
+            "name": "hackathon-generate-farm-data",
+            "isPrivate": true,
+            "updatedAt": "2020-10-09T22:40:34Z",
+            "url": "https://github.com/1904labs/hackathon-generate-farm-data"
+          },
+          {
+            "name": "PonyX-Bot",
+            "isPrivate": true,
+            "updatedAt": "2020-09-28T20:24:32Z",
+            "url": "https://github.com/1904labs/PonyX-Bot"
+          },
+          {
+            "name": "geostack-farm-app",
+            "isPrivate": false,
+            "updatedAt": "2020-09-26T00:28:49Z",
+            "url": "https://github.com/1904labs/geostack-farm-app"
+          },
+          {
+            "name": "geostack-base-app",
+            "isPrivate": true,
+            "updatedAt": "2020-09-25T23:26:09Z",
+            "url": "https://github.com/1904labs/geostack-base-app"
+          },
+          {
+            "name": "geohack-resources",
+            "isPrivate": true,
+            "updatedAt": "2020-09-25T23:22:26Z",
+            "url": "https://github.com/1904labs/geohack-resources"
+          },
+          {
+            "name": "geospatial-stack-templates",
+            "isPrivate": true,
+            "updatedAt": "2020-09-25T23:21:54Z",
+            "url": "https://github.com/1904labs/geospatial-stack-templates"
+          },
+          {
+            "name": "docker-twitter-streamer",
+            "isPrivate": false,
+            "updatedAt": "2020-09-25T22:56:47Z",
+            "url": "https://github.com/1904labs/docker-twitter-streamer"
+          },
+          {
+            "name": "geostack-poc",
+            "isPrivate": true,
+            "updatedAt": "2020-09-25T20:10:44Z",
+            "url": "https://github.com/1904labs/geostack-poc"
+          },
+          {
+            "name": "geohack-scripts",
+            "isPrivate": true,
+            "updatedAt": "2020-09-25T16:57:36Z",
+            "url": "https://github.com/1904labs/geohack-scripts"
+          },
+          {
+            "name": "learn-data-science",
+            "isPrivate": false,
+            "updatedAt": "2020-09-23T13:11:25Z",
+            "url": "https://github.com/1904labs/learn-data-science"
+          },
+          {
+            "name": "flask-react-base",
+            "isPrivate": false,
+            "updatedAt": "2020-09-19T14:16:43Z",
+            "url": "https://github.com/1904labs/flask-react-base"
+          },
+          {
+            "name": "administration",
+            "isPrivate": true,
+            "updatedAt": "2020-09-16T15:34:26Z",
+            "url": "https://github.com/1904labs/administration"
+          },
+          {
+            "name": "android-utils",
+            "isPrivate": false,
+            "updatedAt": "2020-09-16T00:21:10Z",
+            "url": "https://github.com/1904labs/android-utils"
+          },
+          {
+            "name": "example-airflow",
+            "isPrivate": false,
+            "updatedAt": "2020-09-14T22:47:16Z",
+            "url": "https://github.com/1904labs/example-airflow"
+          },
+          {
+            "name": "docker-geoserver",
+            "isPrivate": false,
+            "updatedAt": "2020-09-02T01:44:14Z",
+            "url": "https://github.com/1904labs/docker-geoserver"
+          },
+          {
+            "name": "FlowGen",
+            "isPrivate": false,
+            "updatedAt": "2020-08-28T17:41:58Z",
+            "url": "https://github.com/1904labs/FlowGen"
+          },
+          {
+            "name": "docker-postgis",
+            "isPrivate": false,
+            "updatedAt": "2020-08-28T15:21:01Z",
+            "url": "https://github.com/1904labs/docker-postgis"
+          },
+          {
+            "name": "demo-ios",
+            "isPrivate": true,
+            "updatedAt": "2020-08-18T19:25:50Z",
+            "url": "https://github.com/1904labs/demo-ios"
+          },
+          {
+            "name": "ios-test-utils",
+            "isPrivate": false,
+            "updatedAt": "2020-08-14T18:52:18Z",
+            "url": "https://github.com/1904labs/ios-test-utils"
+          },
+          {
+            "name": "ts-lunch-n-learn",
+            "isPrivate": false,
+            "updatedAt": "2020-08-14T16:43:24Z",
+            "url": "https://github.com/1904labs/ts-lunch-n-learn"
+          },
+          {
+            "name": "iOS-Networking-Package",
+            "isPrivate": true,
+            "updatedAt": "2020-08-12T20:31:59Z",
+            "url": "https://github.com/1904labs/iOS-Networking-Package"
+          },
+          {
+            "name": "docker-ol-kit",
+            "isPrivate": false,
+            "updatedAt": "2020-07-29T14:29:20Z",
+            "url": "https://github.com/1904labs/docker-ol-kit"
+          },
+          {
+            "name": "airflow-dlp",
+            "isPrivate": true,
+            "updatedAt": "2020-07-24T14:06:57Z",
+            "url": "https://github.com/1904labs/airflow-dlp"
+          },
+          {
+            "name": "gcp-infrastructure-build-scripts",
+            "isPrivate": true,
+            "updatedAt": "2020-07-22T21:49:47Z",
+            "url": "https://github.com/1904labs/gcp-infrastructure-build-scripts"
+          },
+          {
+            "name": "streamingteam-azure-synapse",
+            "isPrivate": true,
+            "updatedAt": "2020-07-14T17:09:24Z",
+            "url": "https://github.com/1904labs/streamingteam-azure-synapse"
+          },
+          {
+            "name": "iOS-Best-Practices",
+            "isPrivate": false,
+            "updatedAt": "2020-07-09T14:01:57Z",
+            "url": "https://github.com/1904labs/iOS-Best-Practices"
+          },
+          {
+            "name": "streamingteam-cloud-templates",
+            "isPrivate": true,
+            "updatedAt": "2020-07-02T20:44:22Z",
+            "url": "https://github.com/1904labs/streamingteam-cloud-templates"
+          },
+          {
+            "name": "geomesa-geoserver-docker",
+            "isPrivate": true,
+            "updatedAt": "2020-07-01T15:07:20Z",
+            "url": "https://github.com/1904labs/geomesa-geoserver-docker"
+          },
+          {
+            "name": "geospatial-elasticsearch",
+            "isPrivate": true,
+            "updatedAt": "2020-06-30T16:48:25Z",
+            "url": "https://github.com/1904labs/geospatial-elasticsearch"
+          },
+          {
+            "name": "build-pipeline-architecture",
+            "isPrivate": true,
+            "updatedAt": "2020-06-26T20:00:17Z",
+            "url": "https://github.com/1904labs/build-pipeline-architecture"
+          },
+          {
+            "name": "docker-spark-hadoop",
+            "isPrivate": false,
+            "updatedAt": "2020-06-26T19:27:47Z",
+            "url": "https://github.com/1904labs/docker-spark-hadoop"
+          },
+          {
+            "name": "postgis-docker",
+            "isPrivate": true,
+            "updatedAt": "2020-06-25T14:17:40Z",
+            "url": "https://github.com/1904labs/postgis-docker"
+          },
+          {
+            "name": "geospatial-spark-processing",
+            "isPrivate": true,
+            "updatedAt": "2020-06-19T16:59:42Z",
+            "url": "https://github.com/1904labs/geospatial-spark-processing"
+          },
+          {
+            "name": "ckan-setup",
+            "isPrivate": true,
+            "updatedAt": "2020-06-19T11:30:38Z",
+            "url": "https://github.com/1904labs/ckan-setup"
+          },
+          {
+            "name": "iOS-Documentation",
+            "isPrivate": true,
+            "updatedAt": "2020-06-12T19:46:33Z",
+            "url": "https://github.com/1904labs/iOS-Documentation"
+          },
+          {
+            "name": "Hybrid-Development-Documentation",
+            "isPrivate": true,
+            "updatedAt": "2020-06-12T17:26:51Z",
+            "url": "https://github.com/1904labs/Hybrid-Development-Documentation"
+          },
+          {
+            "name": "geospatial-data-generator",
+            "isPrivate": true,
+            "updatedAt": "2020-06-10T17:18:41Z",
+            "url": "https://github.com/1904labs/geospatial-data-generator"
+          },
+          {
+            "name": "streamingteam-data-generator",
+            "isPrivate": true,
+            "updatedAt": "2020-06-08T16:18:07Z",
+            "url": "https://github.com/1904labs/streamingteam-data-generator"
+          },
+          {
+            "name": "openapi-tools",
+            "isPrivate": true,
+            "updatedAt": "2020-06-05T21:52:21Z",
+            "url": "https://github.com/1904labs/openapi-tools"
+          },
+          {
+            "name": "takoda_video",
+            "isPrivate": false,
+            "updatedAt": "2020-06-01T17:19:21Z",
+            "url": "https://github.com/1904labs/takoda_video"
+          },
+          {
+            "name": "SparkScalaStarter",
+            "isPrivate": false,
+            "updatedAt": "2020-05-20T15:28:46Z",
+            "url": "https://github.com/1904labs/SparkScalaStarter"
+          },
+          {
+            "name": "SwiftUICombineBase",
+            "isPrivate": false,
+            "updatedAt": "2020-05-12T16:09:05Z",
+            "url": "https://github.com/1904labs/SwiftUICombineBase"
+          },
+          {
+            "name": "check-in-at-1904",
+            "isPrivate": true,
+            "updatedAt": "2020-05-07T04:48:42Z",
+            "url": "https://github.com/1904labs/check-in-at-1904"
+          },
+          {
+            "name": "geostack",
+            "isPrivate": false,
+            "updatedAt": "2020-04-21T06:48:15Z",
+            "url": "https://github.com/1904labs/geostack"
+          },
+          {
+            "name": "SparkPythonStarter",
+            "isPrivate": false,
+            "updatedAt": "2020-03-09T22:20:02Z",
+            "url": "https://github.com/1904labs/SparkPythonStarter"
+          },
+          {
+            "name": "lite-brite-research",
+            "isPrivate": true,
+            "updatedAt": "2020-03-03T16:16:14Z",
+            "url": "https://github.com/1904labs/lite-brite-research"
+          },
+          {
+            "name": "mindmaps",
+            "isPrivate": false,
+            "updatedAt": "2019-12-18T06:41:04Z",
+            "url": "https://github.com/1904labs/mindmaps"
+          },
+          {
+            "name": "last-feather-standing-game",
+            "isPrivate": true,
+            "updatedAt": "2019-12-14T05:34:57Z",
+            "url": "https://github.com/1904labs/last-feather-standing-game"
+          },
+          {
+            "name": "Getting-Started-with-Deep-Learning",
+            "isPrivate": false,
+            "updatedAt": "2019-09-18T21:01:04Z",
+            "url": "https://github.com/1904labs/Getting-Started-with-Deep-Learning"
+          },
+          {
+            "name": "nifi-json-to-attributes-bundle",
+            "isPrivate": false,
+            "updatedAt": "2019-07-25T17:50:25Z",
+            "url": "https://github.com/1904labs/nifi-json-to-attributes-bundle"
+          },
+          {
+            "name": "learn-scala",
+            "isPrivate": true,
+            "updatedAt": "2019-07-24T16:51:32Z",
+            "url": "https://github.com/1904labs/learn-scala"
+          },
+          {
+            "name": "intro-to-ui",
+            "isPrivate": false,
+            "updatedAt": "2019-07-15T01:12:37Z",
+            "url": "https://github.com/1904labs/intro-to-ui"
+          },
+          {
+            "name": "platform-auth-gateway",
+            "isPrivate": true,
+            "updatedAt": "2019-06-27T20:46:46Z",
+            "url": "https://github.com/1904labs/platform-auth-gateway"
+          },
+          {
+            "name": "centene-member-info",
+            "isPrivate": true,
+            "updatedAt": "2019-06-11T17:00:35Z",
+            "url": "https://github.com/1904labs/centene-member-info"
+          },
+          {
+            "name": "edward-jones-web",
+            "isPrivate": true,
+            "updatedAt": "2019-05-20T16:05:22Z",
+            "url": "https://github.com/1904labs/edward-jones-web"
+          },
+          {
+            "name": "edward-jones-mock-services",
+            "isPrivate": true,
+            "updatedAt": "2019-05-20T15:18:22Z",
+            "url": "https://github.com/1904labs/edward-jones-mock-services"
+          },
+          {
+            "name": "edward-jones-android",
+            "isPrivate": true,
+            "updatedAt": "2019-04-29T14:18:22Z",
+            "url": "https://github.com/1904labs/edward-jones-android"
+          },
+          {
+            "name": "DE_Meetup_FlaskAPI",
+            "isPrivate": true,
+            "updatedAt": "2019-04-02T22:52:51Z",
+            "url": "https://github.com/1904labs/DE_Meetup_FlaskAPI"
+          },
+          {
+            "name": "DE_Meetup_AWS_K_Producer",
+            "isPrivate": true,
+            "updatedAt": "2019-04-02T22:52:28Z",
+            "url": "https://github.com/1904labs/DE_Meetup_AWS_K_Producer"
+          },
+          {
+            "name": "edward-jones-ios",
+            "isPrivate": true,
+            "updatedAt": "2019-03-28T17:47:11Z",
+            "url": "https://github.com/1904labs/edward-jones-ios"
+          },
+          {
+            "name": "charter-rtcca-conversion-queries",
+            "isPrivate": true,
+            "updatedAt": "2019-03-20T19:58:41Z",
+            "url": "https://github.com/1904labs/charter-rtcca-conversion-queries"
+          },
+          {
+            "name": "github-velocity-tracker",
+            "isPrivate": true,
+            "updatedAt": "2019-03-15T01:16:14Z",
+            "url": "https://github.com/1904labs/github-velocity-tracker"
+          },
+          {
+            "name": "imdb_dataset",
+            "isPrivate": false,
+            "updatedAt": "2019-03-11T19:31:10Z",
+            "url": "https://github.com/1904labs/imdb_dataset"
+          },
+          {
+            "name": "charter_nifi_assets",
+            "isPrivate": true,
+            "updatedAt": "2019-03-01T20:28:16Z",
+            "url": "https://github.com/1904labs/charter_nifi_assets"
+          },
+          {
+            "name": "nifi-htmlparser",
+            "isPrivate": true,
+            "updatedAt": "2019-03-01T18:03:53Z",
+            "url": "https://github.com/1904labs/nifi-htmlparser"
+          },
+          {
+            "name": "1904labs-start-page",
+            "isPrivate": true,
+            "updatedAt": "2019-02-22T19:00:36Z",
+            "url": "https://github.com/1904labs/1904labs-start-page"
+          },
+          {
+            "name": "github-auth-service",
+            "isPrivate": true,
+            "updatedAt": "2019-02-21T16:14:48Z",
+            "url": "https://github.com/1904labs/github-auth-service"
+          },
+          {
+            "name": "charter_nifi_ui",
+            "isPrivate": true,
+            "updatedAt": "2019-02-20T20:26:07Z",
+            "url": "https://github.com/1904labs/charter_nifi_ui"
+          },
+          {
+            "name": "pto-slack-bot",
+            "isPrivate": true,
+            "updatedAt": "2019-02-07T17:02:55Z",
+            "url": "https://github.com/1904labs/pto-slack-bot"
+          },
+          {
+            "name": "hbase-go",
+            "isPrivate": true,
+            "updatedAt": "2019-01-22T20:41:03Z",
+            "url": "https://github.com/1904labs/hbase-go"
+          },
+          {
+            "name": "edward-jones-assets",
+            "isPrivate": true,
+            "updatedAt": "2019-01-16T17:53:40Z",
+            "url": "https://github.com/1904labs/edward-jones-assets"
+          },
+          {
+            "name": "nifi-parse-json-objects",
+            "isPrivate": true,
+            "updatedAt": "2019-01-10T21:57:00Z",
+            "url": "https://github.com/1904labs/nifi-parse-json-objects"
+          },
+          {
+            "name": "kb-ui",
+            "isPrivate": true,
+            "updatedAt": "2019-01-07T22:03:22Z",
+            "url": "https://github.com/1904labs/kb-ui"
+          },
+          {
+            "name": "charter-playbooks",
+            "isPrivate": true,
+            "updatedAt": "2019-01-07T21:13:11Z",
+            "url": "https://github.com/1904labs/charter-playbooks"
+          },
+          {
+            "name": "charter-rtcca-schemas",
+            "isPrivate": true,
+            "updatedAt": "2019-01-07T15:56:09Z",
+            "url": "https://github.com/1904labs/charter-rtcca-schemas"
+          },
+          {
+            "name": "edj-react",
+            "isPrivate": true,
+            "updatedAt": "2019-01-02T16:37:51Z",
+            "url": "https://github.com/1904labs/edj-react"
+          },
+          {
+            "name": "edward-jones-ios-profiles",
+            "isPrivate": true,
+            "updatedAt": "2018-12-31T22:02:39Z",
+            "url": "https://github.com/1904labs/edward-jones-ios-profiles"
+          },
+          {
+            "name": "emerson-web",
+            "isPrivate": true,
+            "updatedAt": "2018-12-15T00:15:51Z",
+            "url": "https://github.com/1904labs/emerson-web"
+          },
+          {
+            "name": "emerson-db",
+            "isPrivate": true,
+            "updatedAt": "2018-12-15T00:14:06Z",
+            "url": "https://github.com/1904labs/emerson-db"
+          },
+          {
+            "name": "emerson-user-api",
+            "isPrivate": true,
+            "updatedAt": "2018-12-13T21:21:45Z",
+            "url": "https://github.com/1904labs/emerson-user-api"
+          },
+          {
+            "name": "gRPC-java-example",
+            "isPrivate": true,
+            "updatedAt": "2018-12-13T17:17:50Z",
+            "url": "https://github.com/1904labs/gRPC-java-example"
+          },
+          {
+            "name": "read-hbase-api",
+            "isPrivate": true,
+            "updatedAt": "2018-12-10T18:23:12Z",
+            "url": "https://github.com/1904labs/read-hbase-api"
+          },
+          {
+            "name": "emerson-executive-series",
+            "isPrivate": true,
+            "updatedAt": "2018-12-05T20:07:09Z",
+            "url": "https://github.com/1904labs/emerson-executive-series"
+          },
+          {
+            "name": "edj-web-service",
+            "isPrivate": true,
+            "updatedAt": "2018-11-14T01:16:24Z",
+            "url": "https://github.com/1904labs/edj-web-service"
+          },
+          {
+            "name": "nifi-calculate-crc32",
+            "isPrivate": false,
+            "updatedAt": "2018-11-13T17:00:01Z",
+            "url": "https://github.com/1904labs/nifi-calculate-crc32"
+          },
+          {
+            "name": "examples-vault",
+            "isPrivate": true,
+            "updatedAt": "2018-10-02T14:29:38Z",
+            "url": "https://github.com/1904labs/examples-vault"
+          },
+          {
+            "name": "envoy",
+            "isPrivate": true,
+            "updatedAt": "2018-09-26T20:00:20Z",
+            "url": "https://github.com/1904labs/envoy"
+          },
+          {
+            "name": "slack-event-bot",
+            "isPrivate": true,
+            "updatedAt": "2018-09-25T18:22:41Z",
+            "url": "https://github.com/1904labs/slack-event-bot"
+          },
+          {
+            "name": "platform-static-proxy",
+            "isPrivate": true,
+            "updatedAt": "2018-08-30T21:49:17Z",
+            "url": "https://github.com/1904labs/platform-static-proxy"
+          },
+          {
+            "name": "ng-msf",
+            "isPrivate": true,
+            "updatedAt": "2018-08-30T15:11:15Z",
+            "url": "https://github.com/1904labs/ng-msf"
+          },
+          {
+            "name": "platform-jenkins",
+            "isPrivate": true,
+            "updatedAt": "2018-08-23T23:09:40Z",
+            "url": "https://github.com/1904labs/platform-jenkins"
+          },
+          {
+            "name": "platform-secrets",
+            "isPrivate": true,
+            "updatedAt": "2018-08-09T22:10:24Z",
+            "url": "https://github.com/1904labs/platform-secrets"
+          },
+          {
+            "name": "nifi_pii_anonymization",
+            "isPrivate": true,
+            "updatedAt": "2018-06-18T14:17:15Z",
+            "url": "https://github.com/1904labs/nifi_pii_anonymization"
+          },
+          {
+            "name": "data-manager",
+            "isPrivate": true,
+            "updatedAt": "2018-05-31T19:55:12Z",
+            "url": "https://github.com/1904labs/data-manager"
+          },
+          {
+            "name": "data-manager-client",
+            "isPrivate": true,
+            "updatedAt": "2018-05-31T14:09:57Z",
+            "url": "https://github.com/1904labs/data-manager-client"
+          },
+          {
+            "name": "data_profiler",
+            "isPrivate": true,
+            "updatedAt": "2018-05-21T15:56:43Z",
+            "url": "https://github.com/1904labs/data_profiler"
+          },
+          {
+            "name": "word_cloud",
+            "isPrivate": true,
+            "updatedAt": "2018-05-17T16:29:49Z",
+            "url": "https://github.com/1904labs/word_cloud"
+          },
+          {
+            "name": "charter_ingestion_framework",
+            "isPrivate": true,
+            "updatedAt": "2018-02-06T17:09:00Z",
+            "url": "https://github.com/1904labs/charter_ingestion_framework"
+          },
+          {
+            "name": "rancher-catalog",
+            "isPrivate": false,
+            "updatedAt": "2017-12-14T22:12:54Z",
+            "url": "https://github.com/1904labs/rancher-catalog"
+          },
+          {
+            "name": "ansible-openvpn",
+            "isPrivate": true,
+            "updatedAt": "2017-12-01T16:02:20Z",
+            "url": "https://github.com/1904labs/ansible-openvpn"
+          },
+          {
+            "name": "ansible-hortonworks",
+            "isPrivate": true,
+            "updatedAt": "2017-11-20T22:00:12Z",
+            "url": "https://github.com/1904labs/ansible-hortonworks"
+          },
+          {
+            "name": "hive-connection-info",
+            "isPrivate": true,
+            "updatedAt": "2017-11-10T20:40:51Z",
+            "url": "https://github.com/1904labs/hive-connection-info"
+          },
+          {
+            "name": "nifi-data-generator",
+            "isPrivate": true,
+            "updatedAt": "2017-11-08T20:12:17Z",
+            "url": "https://github.com/1904labs/nifi-data-generator"
+          },
+          {
+            "name": "sql-scripts",
+            "isPrivate": true,
+            "updatedAt": "2017-11-08T15:00:08Z",
+            "url": "https://github.com/1904labs/sql-scripts"
+          },
+          {
+            "name": "hadoop-docker",
+            "isPrivate": true,
+            "updatedAt": "2017-11-07T16:07:15Z",
+            "url": "https://github.com/1904labs/hadoop-docker"
+          },
+          {
+            "name": "charter-infra",
+            "isPrivate": true,
+            "updatedAt": "2017-11-07T15:44:42Z",
+            "url": "https://github.com/1904labs/charter-infra"
+          }
+        ]
+      }
+    }
+  }
+}
