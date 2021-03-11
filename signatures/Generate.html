@@ -20,18 +20,19 @@
         <label for="pronouns">Preferred Pronouns: <input id="pronouns" placeholder="they/them/theirs" /></label><br>
         <label for="title">Title: <input id="title" required placeholder="Box Boy" /></label><br>
         <label for="teams">Teams: <input id="teams" required placeholder="Morgue Team" /></label><br>
-        <label for="contact1">Contact 1: <input id="contact1" placeholder="mobile 314.555.1212"/></label> (like <em>mobile 314.555.1212</em>)<br>
-        <label for="contact2">Contact 2: <input id="contact2" placeholder="office 314.451.1818"/></label> (like <em>office 314.451.1818</em>)<br>
+        <label for="contact1">Contact 1: <input id="contact1" placeholder="mobile 314.555.1212" /></label> (like <em>mobile 314.555.1212</em>)<br>
+        <label for="contact2">Contact 2: <input id="contact2" placeholder="office 314.451.1818" /></label> (like <em>office 314.451.1818</em>)<br>
         <label for="address">Include office address: <input id="address" type="checkbox" /></label><br>
-        <label for="award">Include Top Workplace link: <input id="award" type="checkbox" checked/></label><br>
-        <label for="awardbanner">Include Top Workplace Banner: <input id="awardbanner" type="checkbox" checked/></label><br>
-        <label for="social">Include social-media links: <input id="social" type="checkbox" checked/></label><br>
-        <label for="labslogo">Use image for 1904labs link: <input id="labslogo" type="checkbox" checked/></label><br>
+        <label for="award">Include Top Workplace link: <input id="award" type="checkbox" checked /></label><br>
+        <label for="awardbanner">Include Top Workplace Banner: <input id="awardbanner" type="checkbox" checked /></label><br>
+        <label for="awsbadge">Include AWS Partner Badge: <input id="awsbadge" type="checkbox" checked /></label><br>
+        <label for="social">Include social-media links: <input id="social" type="checkbox" checked /></label><br>
+        <label for="labslogo">Use image for 1904labs link: <input id="labslogo" type="checkbox" checked /></label><br>
         <div style="margin-left:30px;">
-            <label for="linkedInUser">Override LinkedIn user link: <input id="linkedInUser" type="text" value="company/1904labs"/></label> (like <em>in/yourname</em> or <em>company/1904labs</em>)<br>
-            <label for="twitterUser">Override Twitter user link: <input id="twitterUser" type="text" value="1904labs"/></label> (like <em>yourname</em> or <em>1904labs</em>)<br>
-            <label for="facebookUser">Override Facebook user link: <input id="facebookUser" type="text" value="1904labs"/></label> (like <em>yourname</em> or <em>1904labs</em>)<br>
-            <label for="instagramUser">Override Instagram user link: <input id="instagramUser" type="text" value="1904labs"/></label> (like <em>yourname</em> or <em>1904labs</em>)<br>
+            <label for="linkedInUser">Override LinkedIn user link: <input id="linkedInUser" type="text" value="company/1904labs" /></label> (like <em>in/yourname</em> or <em>company/1904labs</em>)<br>
+            <label for="twitterUser">Override Twitter user link: <input id="twitterUser" type="text" value="1904labs" /></label> (like <em>yourname</em> or <em>1904labs</em>)<br>
+            <label for="facebookUser">Override Facebook user link: <input id="facebookUser" type="text" value="1904labs" /></label> (like <em>yourname</em> or <em>1904labs</em>)<br>
+            <label for="instagramUser">Override Instagram user link: <input id="instagramUser" type="text" value="1904labs" /></label> (like <em>yourname</em> or <em>1904labs</em>)<br>
         </div>
     </form>
     <br>
@@ -40,16 +41,16 @@
     <div id="content"></div>
     <hr>
     <p>Just copy the block above and then paste into your Google (1904labs) <a href="https://mail.google.com/mail/u/0/#settings/general">email signature</a>.<br><br>If you use Outlook:
-        <ul>
-            <li>Go to <b>Outlook/Preferences/Signatures</b></li>
-            <li>Choose <b>Standard</b> under signature name <em>(you can click <b>+</b> and create a different name)</em></li>
-            <li>Click <b>Edit</b></li>
-            <li>Paste into the editor <em>(try not to adjust here)</em></li>
-            <li>Click <b>Save</b> (floppy icon)</li>
-            <li>In the <em>Choose default signature</em> section select the Account for your 1904labs email</li>
-            <li>In the <em>New messages</em> select <b>Standard</b> (or whatever name you used above)</li>
-            <li>Optionally you can also elect to us a signature with <em>Replies/forwards</em></li>
-        </ul>
+    <ul>
+        <li>Go to <b>Outlook/Preferences/Signatures</b></li>
+        <li>Choose <b>Standard</b> under signature name <em>(you can click <b>+</b> and create a different name)</em></li>
+        <li>Click <b>Edit</b></li>
+        <li>Paste into the editor <em>(try not to adjust here)</em></li>
+        <li>Click <b>Save</b> (floppy icon)</li>
+        <li>In the <em>Choose default signature</em> section select the Account for your 1904labs email</li>
+        <li>In the <em>New messages</em> select <b>Standard</b> (or whatever name you used above)</li>
+        <li>Optionally you can also elect to us a signature with <em>Replies/forwards</em></li>
+    </ul>
     </p>
     <script id="template" type="text/handlebars">
         <table style="background-color: white;">
@@ -93,20 +94,24 @@
                     <td>
                         <a href="https://1904labs.com/o/2020TopWorkplace" title="1904labs is Top Workplace 3 years running"><img border=0 src="https://1904labs.com/esig/aw-2018-2020-banner-small" /></a>
                     </td>{{/if}}
+                    {{#if awsbadge}}
+                    <td>
+                        <a href="https://1904labs.com/o/AWSPartner" title="1904labs is and AWS Consulting Partner"><img border=0 width="107" height="107" src="https://1904labs.com/esig/aws-partner-badge" /></a>
+                    </td>{{/if}}
                 </tr>
             </tbody>
         </table>
     </script>
     <script>
-        Handlebars.registerHelper('if', function(conditional, options) {
+        Handlebars.registerHelper('if', function (conditional, options) {
             if (conditional) {
                 return options.fn(this);
             }
         });
 
-        (function($) {
+        (function ($) {
             var compiled = {};
-            $.fn.handlebars = function(template, data) {
+            $.fn.handlebars = function (template, data) {
                 if (template instanceof jQuery) {
                     template = $(template).html();
                 }
@@ -128,6 +133,7 @@
         var $labslogo = $('#labslogo');
         var $award = $('#award');
         var $awardbanner = $('#awardbanner');
+        var $awsbadge = $('#awsbadge');
         var $linkedInUser = $('#linkedInUser');
         var $twitterUser = $('#twitterUser');
         var $facebookUser = $('#facebookUser');
@@ -147,6 +153,7 @@
             state.labstext = $labslogo.prop("checked") ? false : true;
             state.award = $award.prop("checked") ? true : null;
             state.awardbanner = $awardbanner.prop("checked") ? true : null;
+            state.awsbadge = $awsbadge.prop("checked") ? true : null;
             state.linkedInUser = $linkedInUser.val();
             state.twitterUser = $twitterUser.val();
             state.facebookUser = $facebookUser.val();
@@ -159,6 +166,7 @@
         $social.change(regen);
         $award.change(regen);
         $awardbanner.change(regen);
+        $awsbadge.change(regen);
         $labslogo.change(regen);
         regen();
     </script>
