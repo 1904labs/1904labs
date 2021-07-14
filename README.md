@@ -5,4 +5,4 @@ This repository contains assets to embed in emails and websites that may need to
 
 All files here are available for read-only use and no promises are given that they won't change.
 
-2020-08-04: Added the Top Workplace 2020 award
+2021-07-02: Shrink the AWS Badge for weak-kneed email clients.
