@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta name="description" content="Simple Signature Generator for 1904labs">
@@ -69,10 +69,11 @@
                         <p style="line-height:1em;font-family:sans-serif;font-size:10pt;font-weight:500;color:#565a5d;background:#ffffff;">
                             <span style="line-height:1.2em;">
                                 {{#if name.length}}
-                                    <strong style="font-weight:700;font-size:11pt;">{{name}}</strong><br>
-                                {{/if}}
-                                {{#if pronouns.length}}
-                                    <em>{{pronouns}}</em><br>
+                                    <strong style="font-weight:700;font-size:11pt;">{{name}}</strong>
+                                    {{#if pronouns.length}}
+                                        <em>({{pronouns}}))</em>
+                                    {{/if}}
+                                    <br>
                                 {{/if}}
                                 {{#if title.length}}
                                     <em>{{title}}</em><br>
@@ -105,7 +106,7 @@
                     </td>{{/if}}
                     {{#if awsbadge}}
                     <td>
-                        <a href="https://1904labs.com/o/AWSPartner" title="1904labs is and AWS Consulting Partner"><img border=0 width="107" height="107" src="https://1904labs.com/esig/aws-partner-badge-small" /></a>
+                        <a href="https://1904labs.com/o/AWSPartner" title="1904labs is an AWS Consulting Partner"><img border=0 width="107" height="107" src="https://1904labs.com/esig/aws-partner-badge-small" /></a>
                     </td>{{/if}}
                 </tr>
             </tbody>
@@ -171,6 +172,7 @@
         }
 
         $form.keyup(regen);
+        $pronouns.change(regen);
         $address.change(regen);
         $social.change(regen);
         $award.change(regen);
